@@ -34,7 +34,7 @@ public class RaceCondition {
 class Counter {
     int count;
 
-    public void increment() {
+    public synchronized void increment() {
         count++;
     }
 }
